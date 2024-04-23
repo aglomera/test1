@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url('trem.jpeg');
+  background-size: cover; /* Para cobrir todo o fundo */
+  background-position: center; /* Para centralizar a imagem */
+  }
+  .container {
+    background-color: rgba(185, 19, 19, 0.1); /* Opacidade de 0.3 (30%) */
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Efeito de vidro */
+    width: 300px; 
+    border: 0.1px solid rgb(12, 243, 0);
+    
+  
+  } 
+  .container:hover{
+    border: 2px solid rgb(12, 243, 0);
+  }
+  ::placeholder{
+      color: #000000;
+  } 
+
+
+  .inputs{align-items: center;}
+  h1{ text-align: center; 
+    color:black;
+    text-shadow: 2px 2px 3px rgba(4, 232, 68, 0.5); /* Sombra: deslocamento X, deslocamento Y, desfoque, cor */;} 
+  h1:hover{
+    
+    color: #000000;  
+    text-shadow: 2px 2px 3px rgba(4, 232, 68, 0.5); /* Sombra: deslocamento X, deslocamento Y, desfoque, cor */
+    filter: brightness(220%);   
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+
+  input[type="checkbox"] {
+    margin-right: 5px; /* Espaço entre a checkbox e o label */ 
+
+  }
+  
+  button {
+    background-color: #70fb79;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #066f0c;
+  color: #fff;} 
+  input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #010829; /* Linha embaixo da caixa de input */
+    background-color: transparent; /* Fundo transparente para a linha ser visível */
+    margin-bottom: 10px; 
+    width:  270px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none; /* Remove o contorno ao focar */
+    border-bottom-color: #10fa81; /* Cor da linha ao focar */
+  } 
+  /* Estilo padrão do checkbox */
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Estilo do marcador do checkbox */
+  input[type="checkbox"]::before {
+    content: "✔️"; /* Símbolo de marca de verificação */
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+    background-color: transparent; /* Cor do marcador */
+    color: transparent; /* Cor do texto (para esconder o texto) */
+  }
+  
+  /* Estilo do marcador do checkbox quando está marcado */
+  input[type="checkbox"]:checked::before {
+    background-color: #000000; /* Cor do marcador quando marcado */
+    color: #fff; /* Cor do texto (para mostrar o texto) */
+  }
+  a{ text-decoration: none; 
+    font-weight: bold; 
+    padding: 23px;
+    
+    color: #10fa81;
+
+  } 
+  a:hover{
+      color:#fc11f5;
+  }
+  
+  
