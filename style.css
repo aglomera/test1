@@ -7,14 +7,14 @@ body {
     align-items: center;
     height: 100vh; 
     background-image: url('trem.jpeg');
-  background-size: cover; /* Para cobrir todo o fundo */
-  background-position: center; /* Para centralizar a imagem */
+  background-size: cover; 
+  background-position: center; 
   }
   .container {
-    background-color: rgba(185, 19, 19, 0.1); /* Opacidade de 0.3 (30%) */
+    background-color: rgba(185, 19, 19, 0.1); 
     padding: 20px;
     border-radius: 10px;
-    backdrop-filter: blur(10px); /* Efeito de vidro */
+    backdrop-filter: blur(10px); 
     width: 300px; 
     border: 0.1px solid rgb(12, 243, 0);
     
@@ -52,7 +52,7 @@ body {
   
 
   input[type="checkbox"] {
-    margin-right: 5px; /* Espaço entre a checkbox e o label */ 
+    margin-right: 5px; 
 
   }
   
@@ -72,17 +72,17 @@ body {
   input[type="text"] {
     padding: 8px;
     border: none;
-    border-bottom: 2px solid #010829; /* Linha embaixo da caixa de input */
-    background-color: transparent; /* Fundo transparente para a linha ser visível */
+    border-bottom: 2px solid #010829;
+    background-color: transparent; 
     margin-bottom: 10px; 
     width:  270px;
   }
   
   input[type="text"]:focus {
-    outline: none; /* Remove o contorno ao focar */
-    border-bottom-color: #10fa81; /* Cor da linha ao focar */
+    outline: none; 
+    border-bottom-color: #10fa81; 
   } 
-  /* Estilo padrão do checkbox */
+  
 input[type="checkbox"] {
     appearance: none;
     -webkit-appearance: none;
@@ -95,23 +95,23 @@ input[type="checkbox"] {
     cursor: pointer;
   }
   
-  /* Estilo do marcador do checkbox */
+  
   input[type="checkbox"]::before {
-    content: "✔️"; /* Símbolo de marca de verificação */
+    content: "✔️"; 
     display: block;
     width: 20px;
     height: 20px;
     text-align: center;
     line-height: 20px;
     border-radius: 5px;
-    background-color: transparent; /* Cor do marcador */
-    color: transparent; /* Cor do texto (para esconder o texto) */
+    background-color: transparent; 
+    color: transparent; 
   }
   
-  /* Estilo do marcador do checkbox quando está marcado */
+  
   input[type="checkbox"]:checked::before {
-    background-color: #000000; /* Cor do marcador quando marcado */
-    color: #fff; /* Cor do texto (para mostrar o texto) */
+    background-color: #000000; 
+    color: #fff; 
   }
   a{ text-decoration: none; 
     font-weight: bold; 
